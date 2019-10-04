@@ -1,4 +1,4 @@
-Run these command after pulling the project.
+Run these commands after pulling the project form the github.
 
 •	Install composer
 

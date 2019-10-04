@@ -26,7 +26,7 @@ class Storeemployees extends FormRequest
         return [ 
                 'first_name' => 'required',
                 'last_name' => 'required',
-                'email.required' => 'unique:employees',
+                'email' => 'required:employees',
                 'phone' => 'required|regex:/(98)[0-8]{8}/',
                 'company' => 'required',
             //

@@ -25,7 +25,7 @@ class companyrequest extends FormRequest
     {
         return [ 
             'name' => 'required',
-            'email' => 'required|unique:employees',
+            'email' => 'required:employees',
             
         //
     ];

@@ -63,7 +63,7 @@ class CompaniesController extends Controller
 
         }
         // return redirect()->route('home')->with('success','data added successfully');
-        return redirect(route('companies_create'));
+        return redirect(route('companies'));
     }
    
 

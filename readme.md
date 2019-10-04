@@ -1,4 +1,5 @@
 Run these command after pulling the project.
+
 •	Install composer
 composer install
 •	To generate key
